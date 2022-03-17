@@ -12,7 +12,7 @@ namespace ByteBank.Funcionarios
         public String CPF;
         public Double Salario;
         
-        public Double GetBonificacao()
+        public virtual Double GetBonificacao()
         {
         return Salario * 0.10;
         }

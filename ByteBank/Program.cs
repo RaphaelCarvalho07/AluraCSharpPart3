@@ -26,6 +26,12 @@ namespace ByteBank
             gerenciador.Registrar( carlos );
             gerenciador.Registrar( roberta );
 
+            Console.WriteLine( $"O salário do Carlos é: {carlos.Salario}" );
+            Console.WriteLine( $"Bonificação do Carlos é: {carlos.GetBonificacao()}" );
+
+            Console.WriteLine( $"O salário do Roberta é: {roberta.Salario}" );
+            Console.WriteLine( $"Bonificação do Roberta é: {roberta.GetBonificacao()}" );
+
             Console.WriteLine( $"Total de bonificações: {gerenciador.GetTotalBonificacao()}" );
         }
     }
