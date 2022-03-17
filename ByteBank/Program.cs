@@ -39,8 +39,7 @@ namespace ByteBank
             gerenciadorBonificacao.Registrar( igor );
             gerenciadorBonificacao.Registrar( camila );
 
-            Console.WriteLine( "Total de bonificações do mês " +
-                gerenciadorBonificacao.GetTotalBonificacao() );
+            Console.WriteLine( $"Total de bonificações do mês {gerenciadorBonificacao.GetTotalBonificacao()}" );
         }
     }
 }
